@@ -1,6 +1,6 @@
 // set up ======================================================================
 // get all the tools we need
-var port = process.env.PORT || 80;
+var port = 4242;
 var http = require('http');
 var express = require('express'),
    app = module.exports.app = express();
