@@ -24,7 +24,7 @@ sudo apt-get install git -y
 
 echo cloning repo into /home/pi/BierBot
 cd /home/pi
-git clone --depth=1 https://github.com/BernhardSchlegel/BierBot.git
+git clone --depth=1 https://github.com/dgslos/BierBot.git
 
 echo installing bower...
 sudo npm install -g bower
