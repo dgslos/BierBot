@@ -1,3 +1,6 @@
+# This is a clone of the BierBot of BernhardSchlegel, please use that repository (https://github.com/BernhardSchlegel/BierBot/), this one is slightly changed because of conflicts with my setup!
+
+
 <p align="center">
    <img width="300" src="/doc/img/BierBot-Logo_338x70.png" alt="BierBot Logo">
    <h1 align="center"> Raspberry Pi powered Brewing Software</h1>
@@ -62,7 +65,7 @@ This README is also available in [German ![Germany](https://raw.githubuserconten
 Now, we are ready to update the RaspberryPi and install all requirements, such as NodeJS and the database which is the promised **one-liner**.
 
 ```bash
-cd ~ && wget https://raw.githubusercontent.com/BernhardSchlegel/BierBot/master/bierbot-setup.sh && chmod +x bierbot-setup.sh && sudo ./bierbot-setup.sh
+cd ~ && wget https://raw.githubusercontent.com/dgslos/BierBot/master/bierbot-setup.sh && chmod +x bierbot-setup.sh && sudo ./bierbot-setup.sh
 ```
 
 **Congrats**, you're done.
